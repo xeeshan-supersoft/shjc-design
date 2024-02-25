@@ -1,14 +1,20 @@
 import React from 'react';
 import Layout from '../../components/Layout';
+import Carousel from '../Carousel';
+import Carousel2 from '../Carousel2';
+import Cards from '../Cards';
+import Tabs from '../Tabs';
+import Stats from '../Stats';
 
 
 const HomePage = () => {
     return (
         <Layout>
-            <h1 class="text-3xl font-bold underline bg-blue-500 ">
-                Hello world!
-            </h1>
-            <p>This is some content specific to the Home Page.</p>
+            <Carousel />
+            <Tabs />
+            <Cards />
+            <Carousel2 />
+            <Stats />
         </Layout>
     );
 }
